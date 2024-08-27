@@ -75,12 +75,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/Logos/RiVidium Logo -Cyan-Block-2019 TRANS.png",
       navbar: {
         title: "Rividium",
         logo: {
           alt: "My Site Logo",
-          src: "img/Logos/RiVidium-2021.jpg",
+          src: "img/Logos/RiVidium-2021 copy.png",
         },
         items: [
           {

@@ -19,10 +19,10 @@ function HomepageHeader() {
           style={{width: '500px', height: 'auto'}}
           />
         </Heading>
-        <p className="text-4xl">{siteConfig.tagline}</p>
+        <p className="text-4xl inset-1 z-10">{siteConfig.tagline}</p>
 
         {/* Background Image */}
-        <div className='absolute inset-0 z-0 opacity-20'>
+        <div className='absolute inset-0 z-0 opacity-50'>
           <img 
           src='img/Logos/WhiteLines.svg'
           alt='Background Image'
