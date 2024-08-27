@@ -10,7 +10,7 @@
   overflow: hidden;
   margin: 20px;
   border-radius: 20px;
-  opacity: 90%;
+  opacity: 100%;
 }
 
 @media screen and (max-width: 996px) {

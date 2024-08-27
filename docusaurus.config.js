@@ -11,10 +11,10 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 const config = {
   title: "Rividium",
   tagline: "Our People, Our Culture, Our Technology",
-  favicon: "img/favicon.ico",
+  favicon: "img/Logos/RiVidium Logo -Cyan-Block-2019 TRANS.png",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://www.rividium.com/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -77,10 +77,12 @@ const config = {
       // Replace with your project's social card
       image: "img/Logos/RiVidium Logo -Cyan-Block-2019 TRANS.png",
       navbar: {
-        title: "Rividium",
+        title: "",
         logo: {
           alt: "My Site Logo",
           src: "img/Logos/RiVidium-2021 copy.png",
+          // to: "https://www.rividium.com/",
+          // href: "https://www.triplecyber.com/"
         },
         items: [
           {
@@ -88,20 +90,16 @@ const config = {
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Our Corporate Divisions",
+            href: "https://www.rividium.com/"
           },
           {
             href: "https://www.triplecyber.com/",
             label: "TripleCyber",
             position: "left",
           },
-          { to: "/blog",
+          { to: "https://www.rividium.com/Vision.aspx",
             label: "About Us",
             position: "left",
-          },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
           },
         ],
       },
@@ -109,46 +107,82 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "About Us",
+            title: "Company",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "About Us",
+                to: "https://www.rividium.com/",
+              },
+              {
+                label: "Contact Us",
+                to: "https://www.rividium.com/",
+              },
+              {
+                label: "Privacy Policy",
+                to: "https://www.rividium.com/",
+              },
+              {
+                label: "News",
+                to: "https://www.rividium.com/",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Products",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "TripleEnable",
+                href: "https://www.tripleenable.com/",
               },
               {
-                label: "LinkedIn",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "TripleAccess",
+                href: "https://tripleaccess.triplecyber.com/",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/rividium/",
+                label: "Trinity ML",
+                href: "https://trinity.triplecyber.com/",
+              },
+              {
+                label: "Domain Registrar",
+                href: "https://domains.triplecyber.com/",
               },
             ],
           },
           {
-            title: "More",
+            title: "Services",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "Zero Trust Reference Architecture",
+                to: "https://www.triplecyber.com/zero-trust-reference-architecture/",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Computer Network Exploitation",
+                href: "https://www.triplecyber.com/computer-network-exploitation/",
+              },
+              {
+                label: "Cybersecurity Software Assurance",
+                to: "https://www.triplecyber.com/cybersecurity-software-assurance/",
+              },
+              {
+                label: "Risk Management Framework",
+                href: "https://www.triplecyber.com/risk-management-framework/",
+              },
+              {
+                label: "Automation and Optimization",
+                to: "https://www.triplecyber.com/automation-and-optimization/",
+              },
+              {
+                label: "Cyber-Supply Chain Risk Management",
+                href: "https://www.triplecyber.com/cyber-supply-chain-risk-management/",
+              },
+              {
+                label: "Cybersecurity Integration",
+                href: "https://www.triplecyber.com/cybersecurity-integration/",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Rividium Inc.`,
       },
       prism: {
         theme: prismThemes.github,

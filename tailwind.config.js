@@ -6,7 +6,7 @@ module.exports = {
     preflight: false,
     container: false,
   },
-  darkMode: ["class", '[data-theme="dark"]'],
+  darkMode: ["selector", '[data-theme="dark"]'],
   content: ["./src/**/*.{js,jsx,ts,tsx,mdx}",
   "./pages/**/*.{js,jsx,ts,tsx,mdx}",
   "./components/**/*.{js,jsx,ts,tsx,mdx}",
