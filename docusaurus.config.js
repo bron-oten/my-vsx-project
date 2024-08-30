@@ -85,20 +85,30 @@ const config = {
           // href: "https://www.triplecyber.com/"
         },
         items: [
+          { to: "https://www.rividium.com/Vision.aspx",
+            label: "About",
+            position: "left",
+          },
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Our Corporate Divisions",
-            href: "https://www.rividium.com/"
+            label: "Our Verticals",
+            href: "/OurVerticals"
           },
           {
             href: "https://www.triplecyber.com/",
             label: "TripleCyber",
             position: "left",
           },
-          { to: "https://www.rividium.com/Vision.aspx",
-            label: "About Us",
+          {
+            href: "#",
+            label: "Contracts",
+            position: "left",
+          },
+          {
+            href: "#",
+            label: "News",
             position: "left",
           },
         ],
